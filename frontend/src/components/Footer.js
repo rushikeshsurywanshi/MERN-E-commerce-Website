@@ -13,16 +13,36 @@ const Footer = () => {
 
         {/* Social Media Icons */}
         <div className='flex gap-6 justify-center'>
-          <a href="#" target="_blank" rel="noopener noreferrer" className='text-2xl hover:text-pink-500 transition duration-300'>
+          <a 
+            href="https://www.instagram.com/thenameisrushi07/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className='text-2xl hover:text-pink-500 transition duration-300'
+          >
             <FaInstagram title="Instagram" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className='text-2xl hover:text-blue-600 transition duration-300'>
+          <a 
+            href="https://www.linkedin.com/in/rushikesh-surywanshi/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className='text-2xl hover:text-blue-600 transition duration-300'
+          >
             <FaLinkedin title="LinkedIn" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className='text-2xl hover:text-gray-500 transition duration-300'>
+          <a 
+            href="https://github.com/rushikesh05" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className='text-2xl hover:text-gray-500 transition duration-300'
+          >
             <FaGithub title="GitHub" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className='text-2xl hover:text-red-600 transition duration-300'>
+          <a 
+            href="https://www.youtube.com/@RushikeshSuryawanshi" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className='text-2xl hover:text-red-600 transition duration-300'
+          >
             <FaYoutube title="YouTube" />
           </a>
         </div>
